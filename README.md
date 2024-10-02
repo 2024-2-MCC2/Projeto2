@@ -18,7 +18,7 @@ Projeto que visa criar um site com informações úteis sobre doação de sangue
 <br><br>
 
 ## FIGMA
-link:
+link: https://www.figma.com/proto/GaTW6h4N9nBsVXTbwYbeKH/Untitled?node-id=1-2&starting-point-node-id=1%3A2
 
 ## Banco de dados
 MySQL será o banco de dados utilizado no projeto.
