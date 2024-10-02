@@ -80,6 +80,8 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 
 Para abrir este projeto você necessita das seguintes ferramentas:
 
+-<a href="https://react.dev/">React</a>
+
 -<a href="https://code.visualstudio.com/">Visual Studio Code</a>
 
 -<a href="https://godotengine.org/download">GODOT</a>
