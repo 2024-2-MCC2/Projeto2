@@ -18,14 +18,14 @@ Projeto que visa criar um site com informações úteis sobre doação de sangue
 <br><br>
 
 ## FIGMA
-Link: https://www.figma.com/proto/GaTW6h4N9nBsVXTbwYbeKH/Untitled?node-id=1-2&starting-point-node-id=1%3A2
+Link para o protótipo FIGMA: <a href="https://www.figma.com/proto/GaTW6h4N9nBsVXTbwYbeKH/Untitled?node-id=1-2&starting-point-node-id=1%3A2">Clique aqui</a>
 
 ## Banco de dados
-MySQL será o banco de dados utilizado no projeto.
+### MySQL será o banco de dados utilizado no projeto.
 
-Link para o Modelo DER: <a href="Documentos/Entrega 2/BD/DER - PROJETO 2024-2.drawio.pdf">Documentos/Entrega 2/BD/DER - PROJETO 2024-2.drawio.pdf</a>
+Link para o Modelo DER: <a href="Documentos/Entrega 2/BD/DER - PROJETO 2024-2.drawio.pdf">Clique aqui</a>
 
-Link para o README:
+Link para o README: <a href="#">Link ainda precisa ser colocado</a>
 
 ## 🛠 Estrutura de pastas
 
@@ -87,8 +87,6 @@ Para abrir este projeto você necessita das seguintes ferramentas:
 -<a href="https://react.dev/">React</a>
 
 -<a href="https://code.visualstudio.com/">Visual Studio Code</a>
-
--<a href="https://godotengine.org/download">GODOT</a>
 
 ```sh
 make install
