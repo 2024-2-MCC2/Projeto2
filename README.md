@@ -23,7 +23,7 @@ Link para o protótipo FIGMA: <a href="https://www.figma.com/proto/GaTW6h4N9nBsV
 ## Banco de dados
 ### MySQL será o banco de dados utilizado no projeto.
 
-Link para o Modelo DER: <a href="Documentos/Entrega 2/BD/DER - PROJETO 2024-2.drawio.pdf">Clique aqui</a>
+Link para o Modelo DER e as tabelas já criadas: <a href="Documentos/Entrega 3/BD">Clique aqui</a>
 
 Link para o README: <a href="#">Link ainda precisa ser colocado</a>
 
