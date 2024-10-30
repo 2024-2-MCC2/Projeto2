@@ -25,7 +25,7 @@ Link para o protótipo FIGMA: <a href="https://www.figma.com/proto/GaTW6h4N9nBsV
 
 Link para o Modelo DER e as tabelas já criadas: <a href="Documentos/Entrega 3/BD">Clique aqui</a>
 
-Link para o README: <a href="#">Link ainda precisa ser colocado</a>
+Link para o README: <a href="Documentos/Entrega 3/BD/README.md.txt">Clique aqui</a>
 
 ## 🛠 Estrutura de pastas
 
