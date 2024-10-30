@@ -1,21 +1,25 @@
-import styled from "styled-components"
-import BuildingImage from "../../Assets/BancodeSangue.jpg"
-
-const Banner = styled.div`
-    /* background-image: url('${BuildingImage}');
-    width: 100%; 
-    height: 500px; 
-    background-size: cover; 
-    background-position: center; 
-    background-repeat: no-repeat;  */
-`;
+import BloodBankCard from "../ComplementPages/BloodBankCard"
+import image from "../../Assets/Sangue.jpg"
+import BloodBankTexts from "../ComplementPages/BloodBankTexts"
 
 function BloodBank() {
+    const bloodbank=[
+        { id: '1', src: image, alt: 'A+', title: "A+" },
+        { id: '2', src: image, alt: 'A-', title: "A-" },
+        { id: '3', src: image, alt: 'B+', title: "B+" },
+        { id: '4', src: image, alt: 'B-', title: "B-" },
+        { id: '5', src: image, alt: 'AB+', title: "AB+" },
+        { id: '6', src: image, alt: 'AB-', title: "AB-" },
+        { id: '7', src: image, alt: 'O+', title: "O+" },
+        { id: '8', src: image, alt: 'O-', title: "O-" },
+    ]
+
     return (
-        <Banner>
-            <h1 style={{ color: "white", textAlign: "center", paddingTop: "200px" }}>BANCO DE SANGUE</h1>
-        </Banner>
-    );   
+        <div>
+            <BloodBankTexts/>
+            <BloodBankCard bloodbank={bloodbank}/>
+        </div>
+    ) 
 }
 
 export default BloodBank

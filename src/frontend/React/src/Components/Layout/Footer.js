@@ -8,7 +8,8 @@ const FooterContainer = styled.footer`
     display: flex; 
     flex-direction: column; 
     justify-content: center; 
-    align-items: center; 
+    align-items: center;
+    align-items: bot;
 `
 const RightsText = styled.p`
     margin-top: 1em;

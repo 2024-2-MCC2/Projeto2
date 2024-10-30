@@ -1,8 +1,7 @@
-// import './App.css'
-import Banner from '../HomePages/Banner'
-import Importance from '../HomePages/Importance'
-import ParallaxImage from '../HomePages/parallax-image2'
-import AboutUS from '../HomePages/AboutUS'
+import Banner from '../ComplementPages/Banner'
+import Importance from '../ComplementPages/Importance'
+import ParallaxImage from '../ComplementPages/parallax-image2'
+import AboutUS from '../ComplementPages/AboutUS'
 
 function Home() {
   return (

@@ -1,6 +1,6 @@
-import Formulario from "../WantDonatePages/Formulario"
-import FormularioFoto from "../WantDonatePages/FormularioFoto"
-import LocaisProximos from "../WantDonatePages/LocaisProximos"
+import Formulario from "../ComplementPages/Formulario"
+import FormularioFoto from "../ComplementPages/FormularioFoto"
+import LocaisProximos from "../ComplementPages/LocaisProximos"
 import styled from "styled-components"
 
 const FormularioContainer = styled.div`
