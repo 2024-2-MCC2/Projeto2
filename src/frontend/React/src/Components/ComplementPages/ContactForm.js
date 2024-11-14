@@ -61,15 +61,44 @@ justify-self: center;
 }
 `
 
-function ContactForm(){
-    return(
-        <Form> 
-            <Input type="text" maxLength="255" placeholder="Nome"/>
-            <Input type="email" maxLength="255" placeholder="Email"/>
-            <Input type="text" maxLength="11" placeholder="N° Telefone"/>
-            <InputMessage type="text"  maxLength="1000" placeholder="Digite sua mensagem, feedback, crítica, elogio, o que quiser :)"/>
-            <SubmitButton type="submit">ENVIAR</SubmitButton>
+export default function Contact() {
+    const [result, setResult] = React.useState("");
+  
+    const onSubmit = async (event) => {
+      event.preventDefault();
+      setResult("Sending....");
+      const formData = new FormData(event.target);
+  
+      formData.append("access_key", "ff48850c-c368-4ac3-bd5a-a3be138decc3");
+  
+      const response = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData
+      });
+  
+      const data = await response.json();
+  
+      if (data.success) {
+        setResult("Form Submitted Successfully");
+        event.target.reset();
+      } else {
+        console.log("Error", data);
+        setResult(data.message);
+      }
+    };
+  
+    return (
+      <div>
+        <Form onSubmit={onSubmit}>
+          <Input type="text" name="name" required placeholder="Nome"/>
+          <Input type="email" name="email" required placeholder="Email"/>
+          <InputMessage name="message" required placeholder="Digite sua Mensagem"></InputMessage>
+  
+          <SubmitButton type="submit">Submit Form</SubmitButton>
+  
         </Form>
-    )
-}
-export default ContactForm
+        <span>{result}</span>
+  
+      </div>
+    );
+  }
