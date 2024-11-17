@@ -8,12 +8,18 @@
 
 ## Grupo Sanguessugas
 
+
 ## Integrantes: <a href="https://www.linkedin.com/in/victorbarq/">Felipe Lin</a>, <a href="https://www.github.com/lxskki/">Lucas Oliveira</a>, <a href="https://www.github.com/RossanezeMatheus/">Matheus Rossaneze</a>, <a href="https://www.github.com/schaurxch/">Pedro Maia</a>, <a href="https://www.github.com/phelipeumk/">Phelipe Antonio</a>
 
 ## Professores Orientadores: <a href="https://www.linkedin.com/in/dolemes/">Prof. David De Oliveira Lemes</a>, <a href="">Prof. Francisco de Souza Escobar</a>, <a href="">Profª. Katia Milani Lara Bossi
 </a>
 
 ## Descrição
+
+<p align="center">
+  <img src="https://i.ibb.co/LdQMnWS/imagem-sanguessugas.jpg" alt="imagem-sanguessugas" border="0">
+</p>
+
 Projeto que visa criar um site com informações úteis sobre doação de sangue, mostrando hemocentros próximos à localização do usuário. Informações sobre estoque de sangue e outras infos específicas para cada ponto de coleta também serão exibidas (endereço, número de telefone, horário de funcionamento, etc).
 <br><br>
 
@@ -57,26 +63,21 @@ Há também 4 pastas que seguem da seguinte forma:
 
 ## 🛠 Instalação
 
-<b>Android:</b>
-
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
-<b>Windows:</b>
-
-Não há instalação! Apenas executável!
-Encontre o JOGO.exe na pasta executáveis e execute-o como qualquer outro programa.
-
-```sh
-Coloque código do prompt de comnando se for necessário
-```
-
 <b>HTML:</b>
 
 Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
+Abra a pasta no VSCode e digite no terminal os comandos:
+
+```
+cd src/backend
+node server.js
+```
+Abra outro terminal e digite:
+
+```
+cd src/frontend/react
+npm start
+```
 
 ## 💻 Configuração para Desenvolvimento
 
@@ -105,6 +106,13 @@ Aqui estão as referências usadas no projeto.
 1. <https://github.com/iuricode/readme-template>
 2. <https://github.com/gabrieldejesus/readme-model>
 3. <https://creativecommons.org/share-your-work/>
-4. <https://freesound.org/>
-5. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+4. <https://react.dev/>
+5. <https://azure.microsoft.com/pt-br>
+6. <https://opencagedata.com/api>
+7. <https://web3forms.com/>
+8. <https://www.youtube.com/watch?v=TsYpUWZLPB4&t=1413s>
+9. <https://www.youtube.com/watch?v=aQTOWb8quFg>
+10. <https://www.youtube.com/watch?v=-HeadgoqJ7A>
+11. <https://www.youtube.com/watch?v=LjJFu6Y6MrU>
+12. <https://www.saude.sp.gov.br/ses/perfil/gestor/homepage-old2/acesso-rapido/grupo-de-sangue-componentes-e-derivados-hemorrede/locais-para-doacao-de-sangue-no-estado>
 
