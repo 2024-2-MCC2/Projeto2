@@ -58,6 +58,7 @@ function NavBar() {
                         <NavItem><Link to="/BloodBank">Banco de Sangue</Link></NavItem>
                         <NavItem><Link to="/Contact">Contato</Link></NavItem>
                         <NavItem><Link to="/FAQ">FAQ</Link></NavItem>
+                        <NavItem><Link to="/HomeProfile">Perfil</Link></NavItem>
                     </UlModules>
                 </Container>
             </NavModules>          

@@ -42,26 +42,6 @@ function FAQ(){
                     pergunta: "Onde consigo acessar o projeto de vocês?", 
                     resposta: "É possível encontrar este projeto e seu código no GitHub do projeto. Clique no botão abaixo para conferir mais.", 
                     link: "https://github.com/2024-2-MCC2/Projeto2"
-                },
-                {
-                    pergunta: "pergunta 5", 
-                    resposta: "resposta 5", 
-                    link: ""
-                },
-                {
-                    pergunta: "pergunta 6", 
-                    resposta: "resposta 6", 
-                    link: ""
-                },
-                {
-                    pergunta: "pergunta 7", 
-                    resposta: "resposta 7", 
-                    link: ""
-                },
-                {
-                    pergunta: "pergunta 8", 
-                    resposta: "resposta 8", 
-                    link: ""
                 }
                ]}               
             />

@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import image from '../../Assets/foto-projeto.jpg'
 
 const SectionStyle = styled.section`
   display: flex;
@@ -32,7 +33,7 @@ const ParagraphStyle = styled.p`
   margin-top: 0; /* Remove o espaçamento superior */
 `
 const ImageStyle = styled.img`
-  width: 320px; /* Ajusta o tamanho da imagem */
+  width: 460px; /* Ajusta o tamanho da imagem */
   height: 333px;
   object-fit: cover; /* Garante que a imagem mantenha proporção */
 `
@@ -45,10 +46,10 @@ function AboutUS() {
         <TextContainer>
           <SubtitleStyle>NOSSAS MOTIVAÇÕES</SubtitleStyle>
           <ParagraphStyle>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel placerat mi. Sed quis rhoncus risus. Fusce facilisis quam eget laoreet blandit. Morbi auctor iaculis dapibus. Vivamus egestas enim sit amet ipsum euismod, sed congue orci interdum. Donec tempor leo et diam bibendum, quis pellentesque tellus dictum. In rutrum sit amet dolor a fermentum. Sed convallis est fringilla, auctor diam nec, ullamcorper augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+          Nós escolhemos o tema da doação de sangue por reconhecer a importância vital dessa prática para salvar vidas. Frequentemente nos deparamos com notícias alarmantes sobre a insuficiência dos estoques de sangue em hospitais e hemocentros, especialmente durante períodos críticos do ano. Essa realidade nos inspirou a agir e desenvolver um site dedicado a facilitar a vida dos doadores. Nossa plataforma tem como objetivo ajudar os usuários a localizar os postos de coleta de sangue mais próximos, seja em suas residências ou onde quer que estejam. Acreditamos que, ao conectar as pessoas de maneira mais eficiente com esses locais, podemos contribuir significativamente para aumentar as doações e, consequentemente, salvar mais vidas.
           </ParagraphStyle>
         </TextContainer>
-        <ImageStyle src="https://placehold.co/320x333" alt="Imagem sobre nós" />
+        <ImageStyle src = {image} alt="Imagem sobre nós" />
       </ArticleStyle>
     </SectionStyle>
   );
